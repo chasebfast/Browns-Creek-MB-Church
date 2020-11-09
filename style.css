@@ -1,10 +1,21 @@
-.nav-link{
+.navbar-toggler-icon{
     background-color: grey;
-    width: 160px;
+}
+nav{
+    background-color: rgb(92, 12, 12);
 }
 .facebook-page{
     text-align: center;
 }
 .church-address {
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(155, 143, 143);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
