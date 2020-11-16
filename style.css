@@ -2,20 +2,24 @@
     background-color: grey;
 }
 nav{
-    background-color: rgb(92, 12, 12);
+    background-color: maroon;
 }
 .facebook-page{
     text-align: center;
-    color: maroon;
-    border-style: outset;
-    font-size: 14 px;
+    color: rgba(207, 171, 8, 0.863);
+    font-size: 14px;
     font-family: Georgia;
 }
 .church-address {
     text-align: center;
-    color: maroon;
-    border-style: outset;
-    font-size: 14px;
+    color: rgba(207, 171, 8, 0.863);
+    font-size: 16px;
+    font-family: Georgia;
+}
+.footer-tabs {
+    text-align: center;
+    color: rgba(207, 171, 8, 0.863);
+    font-size: 16px;
     font-family: Georgia;
 }
 .footer {
@@ -23,16 +27,29 @@ nav{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:rgb(155, 143, 143);
+    background-color: maroon;
     color: rgb(0, 0, 0);
     text-align: center;
+    padding: 10px;
+
 }
-.navbar-nav {
+
+.col-md-12 {
     list-style:  none;
     font-weight: bold;
-    margin-bottom: 10px;
     width: 100%;
     text-align: center;
-    background-color: #000000;
-    height: 40px;
 }
+.nav-link {
+    font-size: 20px;
+    color: rgba(207, 171, 8, 0.863);
+}
+.nav-link-footer{
+    font-size: 16px;
+    color: rgba(207, 171, 8, 0.863);
+}
+.facebook-link {
+    font-size: 16px;
+    color: rgba(207, 171, 8, 0.863);
+}
+
