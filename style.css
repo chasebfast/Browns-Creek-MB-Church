@@ -23,7 +23,6 @@ nav{
     font-family: Georgia;
 }
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -52,8 +51,11 @@ nav{
     font-size: 16px;
     color: rgba(207, 171, 8, 0.863);
 }
-.navbar-brand {
-    font-size: 16px;
-    color: rgba(207, 171, 8, 0.863);
+.carousel-item {
+    object-fit: fill;
+    height:700px;
 }
-
+.d-block {
+    max-width: 100%;
+    height: auto;
+}
