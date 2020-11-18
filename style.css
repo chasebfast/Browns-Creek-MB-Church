@@ -30,10 +30,9 @@ nav{
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
-
 }
 
-.col-md-12 {
+.col-md-12-footer{
     list-style:  none;
     font-weight: bold;
     width: 100%;
@@ -58,4 +57,26 @@ nav{
 .d-block {
     max-width: 100%;
     height: auto;
+}
+body {
+    background-color: rgb(109, 95, 95);
+}
+.welcome, .content-header, .about-header, .main-header {
+    color: rgba(207, 171, 8, 0.863);
+    font-family: Georgia;
+}
+.main-page, .contact-page, .about-page {
+    color: darkgray;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.contact-page, .about-page {
+    font-size: 25px;
+    color: darkgray;
+    font-weight: lighter;
+}
+
+.about-header, .main-header, .main-page{ 
+    text-align: center;
 }
