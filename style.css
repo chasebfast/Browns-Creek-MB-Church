@@ -61,11 +61,11 @@ nav{
 body {
     background-color: rgb(109, 95, 95);
 }
-.welcome, .content-header, .about-header, .main-header {
+.welcome, .content-header, .about-header, .main-header, .sermon-header, .event-header {
     color: rgba(207, 171, 8, 0.863);
     font-family: Georgia;
 }
-.main-page, .contact-page, .about-page {
+.main-page, .contact-page, .about-page, .sermon-page {
     color: darkgray;
     font-size: 25px;
     font-weight: lighter;
@@ -77,6 +77,6 @@ body {
     font-weight: lighter;
 }
 
-.about-header, .main-header, .main-page{ 
+.about-header, .calendar .about-page, .main-header, .main-page, .event-header, .sermon-header, .sermon-header{ 
     text-align: center;
 }
