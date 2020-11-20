@@ -59,21 +59,21 @@ nav{
     height: auto;
 }
 body {
-    background-color: rgb(109, 95, 95);
+    background-color: rgb(165, 56, 42);
 }
 .welcome, .staff-header, .content-header, .about-header, .main-header, .sermon-header, .event-header {
     color: rgba(207, 171, 8, 0.863);
     font-family: Georgia;
 }
 .main-page, .contact-page, .about-page, .sermon-page {
-    color: darkgray;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: lighter;
 }
 
 .contact-page, .about-page {
     font-size: 25px;
-    color: darkgray;
+    color: rgb(255, 255, 255);
     font-weight: lighter;
 }
 
