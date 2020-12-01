@@ -110,9 +110,6 @@ body {
     display: table;
   }
   
-  .title {
-    color: grey;
-  }
   
   .button {
     border: none;
@@ -128,4 +125,10 @@ body {
   
   .button:hover {
     background-color: #555;
+  }
+  .card {
+      background-color: rgb(82, 4, 4);
+  }
+  .container, .title {
+      color:  rgba(207, 171, 8, 0.863);
   }
