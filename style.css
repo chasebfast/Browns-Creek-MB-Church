@@ -134,12 +134,18 @@ body {
   .container, .title {
       color:  rgba(207, 171, 8, 0.863);
   }
-  .contact-page, .content-header {
+  .content-header {
       font-size: 60px;
+  }
+  .contact-page {
+      font-size: 50px;
   }
   p, h1 , h2{
       font-family: "Georgia", serif;
   }
   .staff-image {
       height: auto;
+  }
+  .map {
+      overflow: hidden;
   }
