@@ -140,3 +140,6 @@ body {
   p, h1 , h2{
       font-family: "Georgia", serif;
   }
+  .staff-image {
+      height: 500px;
+  }
