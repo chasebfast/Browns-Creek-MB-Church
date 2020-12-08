@@ -63,25 +63,18 @@ nav{
 body {
     background-color: rgb(165, 56, 42);
 }
+/* Styles for headers */
 .welcome, .staff-header, .content-header, .about-header, .main-header, .sermon-header, .event-header {
     color: rgba(207, 171, 8, 0.863);
     font-family: Georgia;
-}
-.main-page, .contact-page, .about-page, .sermon-page {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: lighter;
-}
-
-.contact-page, .about-page {
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    font-weight: lighter;
-}
-
-.about-header, .staff-header, .calendar .about-page, .main-header, .main-page, .event-header, .sermon-header, .sermon-header{ 
     text-align: center;
 }
+.main-page, .contact-page, .about-page, .sermon-page, .contact-page, .about-page  {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: lighter;
+}
+
 /* Three columns side by side */
 .column {
     float: left;
