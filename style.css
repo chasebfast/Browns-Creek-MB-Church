@@ -142,3 +142,8 @@ body {
   .map {
       overflow: hidden;
   }
+  .sermon-page-header {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: lighter;
+  }
